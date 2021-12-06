@@ -1,5 +1,9 @@
 #Istediğin süre kadar konuşmanı kayıt alan ve speechrecord.text'e yazdıran program.
 #Pyaudio gerekli bazen hata veriyor, "pip install pipwin" yaptıktan sonta "pip install pyaudio" yapabilirsiniz
+#A program that records your speech for as long as you want and writes it to speechrecord.text.
+#"pip install pyaudio" sometime gives error, you can "pipwin install pipwin" then "pip install pyaudio" and you won't get error
+
+
 
 import speech_recognition as sr
 r = sr.Recognizer()
